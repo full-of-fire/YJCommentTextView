@@ -13,6 +13,7 @@
 		968BD7501C5066A5007A4CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968BD74E1C5066A5007A4CFC /* Main.storyboard */; };
 		968BD7521C5066A5007A4CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968BD7511C5066A5007A4CFC /* Assets.xcassets */; };
 		968BD7551C5066A5007A4CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968BD7531C5066A5007A4CFC /* LaunchScreen.storyboard */; };
+		968BD75E1C506705007A4CFC /* YJCommentInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 968BD75D1C506705007A4CFC /* YJCommentInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		968BD7511C5066A5007A4CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		968BD7541C5066A5007A4CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		968BD7561C5066A5007A4CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968BD75C1C506705007A4CFC /* YJCommentInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJCommentInputView.h; sourceTree = "<group>"; };
+		968BD75D1C506705007A4CFC /* YJCommentInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJCommentInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				968BD7491C5066A5007A4CFC /* AppDelegate.m */,
 				968BD74B1C5066A5007A4CFC /* ViewController.h */,
 				968BD74C1C5066A5007A4CFC /* ViewController.m */,
+				968BD75C1C506705007A4CFC /* YJCommentInputView.h */,
+				968BD75D1C506705007A4CFC /* YJCommentInputView.m */,
 				968BD74E1C5066A5007A4CFC /* Main.storyboard */,
 				968BD7511C5066A5007A4CFC /* Assets.xcassets */,
 				968BD7531C5066A5007A4CFC /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968BD75E1C506705007A4CFC /* YJCommentInputView.m in Sources */,
 				968BD74D1C5066A5007A4CFC /* ViewController.m in Sources */,
 				968BD74A1C5066A5007A4CFC /* AppDelegate.m in Sources */,
 				968BD7471C5066A5007A4CFC /* main.m in Sources */,
